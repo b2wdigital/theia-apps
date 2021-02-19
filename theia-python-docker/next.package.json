@@ -3,9 +3,9 @@
     "theia": {
         "frontend": {
             "config": {
-                "applicationName": "Theia Python Example",
+                "applicationName": "B2W Virtual IDE :: Python",
                 "preferences": {
-                    "files.enableTrash": false
+                    "files.enableTrash": true
                 }
             }
         }
@@ -56,7 +56,6 @@
         "vscode-builtin-html-language-features": "https://open-vsx.org/api/vscode/html-language-features/1.49.0/file/vscode.html-language-features-1.49.0.vsix",
         "vscode-builtin-ini": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/ini-1.39.1-prel.vsix",
         "vscode-builtin-jake": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/jake-1.39.1-prel.vsix",
-        "vscode-builtin-java": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/java-1.39.1-prel.vsix",
         "vscode-builtin-javascript": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/javascript-1.39.1-prel.vsix",
         "vscode-builtin-json": "https://open-vsx.org/api/vscode/json/1.46.1/file/vscode.json-1.46.1.vsix",
         "vscode-builtin-json-language-features": "https://open-vsx.org/api/vscode/json-language-features/1.46.1/file/vscode.json-language-features-1.46.1.vsix",
@@ -99,6 +98,7 @@
         "vscode-builtin-xml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/xml-1.39.1-prel.vsix",
         "vscode-builtin-yaml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/yaml-1.39.1-prel.vsix",
         "vscode-editorconfig": "https://github.com/theia-ide/editorconfig-vscode/releases/download/v0.14.4/EditorConfig-0.14.4.vsix",
-        "vscode-python": "https://github.com/microsoft/vscode-python/releases/download/2020.1.58038/ms-python-release.vsix"
+        "vscode-python": "https://github.com/microsoft/vscode-python/releases/download/2021.2.576481509/ms-python-release.vsix",
+        "tabnine": "https://github.com/codota/tabnine-vscode/releases/download/v3.2.7/tabnine-vscode.vsix"
     }
 }
