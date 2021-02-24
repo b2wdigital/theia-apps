@@ -1,14 +1,6 @@
 name: ci-cd
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
-  schedule:
-    - cron: "0 0 * * *" # runs every day at 12 a.m.
   workflow_dispatch:
 
 jobs:
@@ -32,6 +24,7 @@ jobs:
             "theia-https",
             "theia-php",
             "theia-python",
+            "b2wdigital/virtual-ide-py"
           ]
         include:
           - IMAGE_NAME: "theia-https"
